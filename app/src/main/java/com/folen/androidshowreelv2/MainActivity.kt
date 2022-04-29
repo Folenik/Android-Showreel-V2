@@ -14,16 +14,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        init()
+        initRecyclerView()
     }
 
-    fun init() {
+    private fun initRecyclerView() {
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
         mainAdapter = MainAdapter(itemsList)
         val layoutManager = LinearLayoutManager(applicationContext)
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = mainAdapter
 
+        populateRecyclerView()
+    }
+
+    private fun populateRecyclerView() {
         val item1 = TestListItem("Header 1", "Description 1", R.drawable.ic_launcher_background)
         val item2 = TestListItem("Header 2", "Description 2", R.drawable.ic_launcher_background)
         val item3 = TestListItem("Header 3", "Description 3", R.drawable.ic_launcher_background)
@@ -35,5 +39,7 @@ class MainActivity : AppCompatActivity() {
         itemsList.add(item4)
 
         mainAdapter.notifyDataSetChanged()
+
+        //setup GSON
     }
 }

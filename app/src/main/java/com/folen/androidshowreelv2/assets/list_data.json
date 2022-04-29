@@ -1,0 +1,232 @@
+[
+  {
+    "id": 0,
+    "name": "Constraint Layout",
+    "description": "Recreating finished layout using only XML",
+    "isDone": "false"
+  },
+  {
+    "id": 1,
+    "name": "Dependency Injection",
+    "description": "Description about Dependency Injection.",
+    "isDone": "false"
+  },
+  {
+    "id": 2,
+    "name": "Fragments",
+    "description": "Communication between fragments inside one activity using interfaces.",
+    "img": "https://i.imgur.com/YCpK1Ex.png",
+    "isDone": "false"
+  },
+  {
+    "id": 3,
+    "name": "Dialogs",
+    "description": "Description about dialogs.",
+    "isDone": "false"
+  },
+  {
+    "id": 4,
+    "name": "BottomNavigation",
+    "description": "Description about BottomNavigation.",
+    "isDone": "false"
+  },
+  {
+    "id": 5,
+    "name": "BottomSheetFragment",
+    "description": "Description about BottomSheetFragment.",
+    "isDone": "false"
+  },
+  {
+    "id": 6,
+    "name": "GoogleMaps",
+    "description": "Description about GoogleMaps.",
+    "isDone": "false"
+  },
+  {
+    "id": 7,
+    "name": "Taking photos",
+    "description": "Description about taking photos.",
+    "isDone": "false"
+  },
+  {
+    "id": 8,
+    "name": "QR Code scanner",
+    "description": "Allows user to scan QR codes within specified area.",
+    "isDone": "false"
+  },
+  {
+    "id": 9,
+    "name": "Intent data passing - Serializable & Parcelable",
+    "description": "Description about Intent data passing - Serializable & Parcelable.",
+    "isDone": "false"
+  },
+  {
+    "id": 10,
+    "name": "Loading image from gallery",
+    "description": "Description about Loading image from gallery.",
+
+    "isDone": "false"
+  },
+  {
+    "id": 11,
+    "name": "Gesture detector",
+    "description": "Description about Gesture detector.",
+    "isDone": "false"
+  },
+  {
+    "id": 12,
+    "name": "Basic Animations",
+    "description": "Description about Animations.",
+    "isDone": "false"
+  },
+  {
+    "id": 13,
+    "name": "Fragment transactions",
+    "description": "Basic fragment transactions with or without backstack.",
+    "isDone": "false"
+  },
+  {
+    "id": 14,
+    "name": "ViewPager & Indicator",
+    "description": "Allows user to navigate between fragments by swiping.",
+    "isDone": "false"
+  },
+  {
+    "id": 15,
+    "name": "Sliding registration form",
+    "description": "With use of ViewPager2.",
+    "isDone": "false"
+  },
+  {
+    "id": 16,
+    "name": "FCM",
+    "description": "Description about FCM.",
+    "isDone": "false"
+  },
+  {
+    "id": 17,
+    "name": "Snackbar",
+    "description": "Description about Snackbar."
+    "isDone": "false"
+  },
+  {
+    "id": 18,
+    "name": "Simple REST API with RestClient",
+    "description": "Description about Simple REST API with RestClient.",
+    "isDone": "false"
+  },
+  {
+    "id": 19,
+    "name": "Live permissions",
+    "description": "Description about Live permissions.",
+    "isDone": "false"
+  },
+  {
+    "id": 20,
+    "name": "Rx streams",
+    "description": "Description about Rx streams.",
+    "isDone": "false"
+  },
+  {
+    "id": 21,
+    "name": "AutoCompleteEditText",
+    "description": "Description about AutoCompleteEditText",
+    "isDone": "false"
+  },
+  {
+    "id": 22,
+    "name": "Broadcast Receiver",
+    "description": "Description about Broadcast Receiver.",
+    "isDone": "false"
+  },
+  {
+    "id": 23,
+    "name": "Local notifications",
+    "description": "Description about Local notifications.",
+    "isDone": "false"
+  },
+  {
+    "id": 24,
+    "name": "WebView + JS",
+    "description": "Displays Google search page without logo and footer",
+    "isDone": "false"
+  },
+  {
+    "id": 25,
+    "name": "TextInputLayout",
+    "description": "Description about TextInputLayout.",
+    "isDone": "false"
+  },
+  {
+    "id": 26,
+    "name": "ViewModel",
+    "description": "Description about ViewModel.",
+    "isDone": "false"
+  },
+  {
+    "id": 27,
+    "name": "Complex view with merge tag",
+    "description": "Description about Complex view with merge tag.",
+    "isDone": "false"
+  },
+  {
+    "id": 28,
+    "name": "Operations on threads",
+    "description": "Description about Operations on threads.",
+    "isDone": "false"
+  },
+  {
+    "id": 29,
+    "name": "Spannable",
+    "description": "Description about Spannable.",
+    "isDone": "false"
+  },
+  {
+    "id": 30,
+    "name": "Multiple language app",
+    "description": "Description about multiple language app.",
+    "isDone": "false"
+  },
+  {
+    "id": 31,
+    "name": "SharedPreferences",
+    "description": "Description about SharedPreferences.",
+    "isDone": "false"
+  },
+  {
+    "id": 32,
+    "name": "Services",
+    "description": "Description about Services.",
+    "isDone": "false"
+  },
+  {
+    "id": 33,
+    "name": "Kotlin",
+    "description": "Description about Kotlin.",
+    "isDone": "false"
+  },
+  {
+    "id": 34,
+    "name": "Configuration change",
+    "description": "Description about Configuration change.",
+    "isDone": "false"
+  },
+  {
+    "id": 35,
+    "name": "Motion sensors",
+    "description": "Description about Motion sensors.",
+    "isDone": "false"
+  },
+  {
+    "id": 36,
+    "name": "Bitmaps",
+    "description": "Description about Bitmaps.",
+    "isDone": "false"
+  },
+  {
+    "id": 37,
+    "name": "DataBinding",
+    "description": "Description about DataBinding.",
+    "isDone": "false"
+  }
+]

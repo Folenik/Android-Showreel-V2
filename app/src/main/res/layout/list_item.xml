@@ -4,20 +4,20 @@
     android:id="@+id/listItemCardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="4dp"
-    app:cardElevation="4dp"
-    android:layout_margin="4dp">
+    app:cardCornerRadius="@dimen/spacing4"
+    app:cardElevation="@dimen/spacing4"
+    android:layout_margin="@dimen/spacing4">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/listItemConstraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="4dp">
+        android:padding="@dimen/spacing4">
 
         <ImageView
             android:id="@+id/listItemImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="@dimen/spacing64"
+            android:layout_height="@dimen/spacing64"
             android:contentDescription="img"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -26,9 +26,9 @@
             android:id="@+id/listItemHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
+            android:layout_margin="@dimen/spacing4"
             android:text="Header"
-            android:textSize="24sp"
+            android:textSize="@dimen/textSize14"
             app:layout_constraintStart_toEndOf="@id/listItemImage"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,9 +37,9 @@
             android:id="@+id/listItemDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
+            android:layout_margin="@dimen/spacing4"
             android:text="Description"
-            android:textSize="16sp"
+            android:textSize="@dimen/textSize16"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@id/listItemImage" />
 
