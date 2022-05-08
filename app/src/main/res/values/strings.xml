@@ -5,4 +5,5 @@
     <string name="default_feature_description">Description</string>
     <string name="default_feature_image">Image</string>
     <string name="feature_recyclerview_error">Something went wrong with loading feature list. Try again later.</string>
+    <string name="feature_not_finished">Feature is not finished yet.</string>
 </resources>

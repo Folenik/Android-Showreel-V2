@@ -1,4 +1,4 @@
-package com.folen.androidshowreelv2
+package com.folen.androidshowreelv2.main
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,10 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
+import com.folen.androidshowreelv2.R
+import com.folen.androidshowreelv2.utilities.managers.ImageManager
+import com.folen.androidshowreelv2.utilities.managers.IntentManager
+
 
 class FeatureListAdapter(private val featureList: List<Feature>) :
     RecyclerView.Adapter<FeatureListAdapter.ViewHolder>() {
@@ -23,11 +26,14 @@ class FeatureListAdapter(private val featureList: List<Feature>) :
 
         holder.itemName.text = featureListItem.name
         holder.itemDescription.text = featureListItem.description
-        Glide.with(holder.itemView.context)
-            .load(featureListItem.image)
-            .fitCenter()
-            .placeholder(R.drawable.ic_loading)
-            .into(holder.itemImage);
+        ImageManager.setImageFromUri(
+            holder.itemView.context,
+            featureListItem.image,
+            holder.itemImage
+        )
+        holder.itemView.setOnClickListener {
+            IntentManager.openNewActivity(holder.itemView.context, featureListItem.id)
+        }
     }
 
     override fun getItemCount(): Int {
@@ -39,5 +45,4 @@ class FeatureListAdapter(private val featureList: List<Feature>) :
         val itemDescription = itemView.findViewById(R.id.featureListItemDescription) as TextView
         val itemImage = itemView.findViewById(R.id.featureListItemImage) as ImageView
     }
-
 }
