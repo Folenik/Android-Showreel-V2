@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/featureListItemCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing4"
+    app:cardCornerRadius="@dimen/spacing4"
+    app:cardElevation="@dimen/spacing4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/featureListItemConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing4">
+
+        <ImageView
+            android:id="@+id/featureListItemImage"
+            android:layout_width="@dimen/spacing64"
+            android:layout_height="@dimen/spacing64"
+            android:contentDescription="@string/default_feature_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/featureListItemName"
+            style="@style/ShowreelLabel.ItemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing8"
+            android:text="@string/default_feature_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/featureListItemImage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/featureListItemDescription"
+            style="@style/ShowreelLabel.ItemDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing8"
+            android:text="@string/default_feature_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/featureListItemImage"
+            app:layout_constraintTop_toBottomOf="@id/featureListItemName" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

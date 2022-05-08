@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShowreelLabel">
+        <item name="android:textSize">@dimen/textSize12</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ShowreelLabel.ItemName">
+        <item name="android:textSize">@dimen/textSize24</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ShowreelLabel.ItemDescription">
+        <item name="android:textSize">@dimen/textSize16</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
