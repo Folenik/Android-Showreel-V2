@@ -1,4 +1,4 @@
-package com.folen.androidshowreelv2
+package com.folen.androidshowreelv2.main
 
 import android.os.Bundle
 import android.widget.Toast
@@ -6,6 +6,7 @@ import android.widget.Toast.LENGTH_LONG
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.folen.androidshowreelv2.R
 import com.folen.androidshowreelv2.utilities.Constants.LIST_JSON_NAME
 import com.folen.androidshowreelv2.utilities.managers.AssetsManager
 import com.google.gson.Gson
