@@ -3,230 +3,266 @@
     "id": 0,
     "name": "Constraint Layout",
     "description": "Recreating finished layout using only XML",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 1,
     "name": "Dependency Injection",
     "description": "Description about Dependency Injection.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 2,
     "name": "Fragments",
     "description": "Communication between fragments inside one activity using interfaces.",
-    "img": "https://i.imgur.com/YCpK1Ex.png",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 3,
     "name": "Dialogs",
     "description": "Description about dialogs.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 4,
     "name": "BottomNavigation",
     "description": "Description about BottomNavigation.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 5,
     "name": "BottomSheetFragment",
     "description": "Description about BottomSheetFragment.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 6,
     "name": "GoogleMaps",
     "description": "Description about GoogleMaps.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 7,
     "name": "Taking photos",
     "description": "Description about taking photos.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 8,
     "name": "QR Code scanner",
     "description": "Allows user to scan QR codes within specified area.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 9,
     "name": "Intent data passing - Serializable & Parcelable",
     "description": "Description about Intent data passing - Serializable & Parcelable.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 10,
     "name": "Loading image from gallery",
     "description": "Description about Loading image from gallery.",
-
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 11,
     "name": "Gesture detector",
     "description": "Description about Gesture detector.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 12,
     "name": "Basic Animations",
     "description": "Description about Animations.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 13,
     "name": "Fragment transactions",
     "description": "Basic fragment transactions with or without backstack.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 14,
     "name": "ViewPager & Indicator",
     "description": "Allows user to navigate between fragments by swiping.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 15,
     "name": "Sliding registration form",
     "description": "With use of ViewPager2.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 16,
     "name": "FCM",
     "description": "Description about FCM.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 17,
     "name": "Snackbar",
-    "description": "Description about Snackbar."
+    "description": "Description about Snackbar.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 18,
     "name": "Simple REST API with RestClient",
     "description": "Description about Simple REST API with RestClient.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 19,
     "name": "Live permissions",
     "description": "Description about Live permissions.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 20,
     "name": "Rx streams",
     "description": "Description about Rx streams.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 21,
     "name": "AutoCompleteEditText",
     "description": "Description about AutoCompleteEditText",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 22,
     "name": "Broadcast Receiver",
     "description": "Description about Broadcast Receiver.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 23,
     "name": "Local notifications",
     "description": "Description about Local notifications.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 24,
     "name": "WebView + JS",
     "description": "Displays Google search page without logo and footer",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 25,
     "name": "TextInputLayout",
     "description": "Description about TextInputLayout.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 26,
     "name": "ViewModel",
     "description": "Description about ViewModel.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 27,
     "name": "Complex view with merge tag",
     "description": "Description about Complex view with merge tag.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 28,
     "name": "Operations on threads",
     "description": "Description about Operations on threads.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 29,
     "name": "Spannable",
     "description": "Description about Spannable.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 30,
     "name": "Multiple language app",
     "description": "Description about multiple language app.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 31,
     "name": "SharedPreferences",
     "description": "Description about SharedPreferences.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 32,
     "name": "Services",
     "description": "Description about Services.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 33,
     "name": "Kotlin",
     "description": "Description about Kotlin.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 34,
     "name": "Configuration change",
     "description": "Description about Configuration change.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 35,
     "name": "Motion sensors",
     "description": "Description about Motion sensors.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 36,
     "name": "Bitmaps",
     "description": "Description about Bitmaps.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   },
   {
     "id": 37,
     "name": "DataBinding",
     "description": "Description about DataBinding.",
+    "image": "https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg",
     "isDone": "false"
   }
 ]
