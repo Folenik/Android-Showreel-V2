@@ -1,13 +1,18 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
 }
 
 android {
     compileSdkVersion toolVersions.android.compileSdk
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
-        applicationId "com.folen.moviebrowser"
+        applicationId "com.folen.androidshowreelv2"
         minSdkVersion toolVersions.android.minSdk
         targetSdkVersion toolVersions.android.targetSdk
         versionCode projectVersions.versionCode
@@ -26,6 +31,10 @@ android {
             debuggable true
         }
     }
+
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
@@ -36,7 +45,8 @@ dependencies {
     implementation "com.google.android.material:material:$libVersions.material"
     implementation "com.google.code.gson:gson:$libVersions.gson"
     implementation "com.github.bumptech.glide:glide:$libVersions.glide"
-    testImplementation "junit:junit:$libVersions.junit"
-    androidTestImplementation "androidx.test.ext:junit:$libVersions.extjunit"
+    implementation "com.github.chathuralakmal:AndroidImagePopup:$libVersions.imagepopup"
+
     annotationProcessor "com.github.bumptech.glide:compiler:$libVersions.glide"
+    kapt "com.android.databinding:compiler:$toolVersions.android.compiler"
 }
